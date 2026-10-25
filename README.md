@@ -24,7 +24,9 @@ See the illustrated-by-steps guide in [INSTALL.md](INSTALL.md). In short:
 ## Features
 
 - Choose a built-in theme wallpaper or a local TV image; Glance can show local photos after an adjustable idle period.
-- The Control Center clock and date sit beside a local weather pill; Settings stays in its own gear control.
+- A liquid-glass Control Center groups Wi-Fi, Do Not Disturb, Inputs, Glance, Settings, and quick actions with monochrome icons.
+- Now Playing has album art, track details, progress, and previous/play/next controls. Glance can show the date, local weather, and currently playing track.
+- Background Blur has its own settings page with a live glass preview and remote-friendly slider.
 - Hold **OK** on an app to move it, remove it from Home, or open App info. The App Library at the end of the grid lets you add apps back.
 - Reorder apps with the remote and adjust the grid and dock in the dark appearance.
 - First-launch welcome setup with a skip option.
