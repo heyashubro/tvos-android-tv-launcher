@@ -8,7 +8,7 @@ A clean, remote-first Android TV home screen by **ASHU**. Version **1.0**. Minim
 
 Download the universal APK: [tvOS-Android-TV-1.0.apk](tvOS-Android-TV-1.0.apk)
 
-Download the complete source: [tvOS-source-v1.0.zip](tvOS-source-v1.0.zip) or browse the [`launcher/`](launcher/) project folder.
+Download the complete source: [tvOS-source-v1.0.zip](tvOS-source-v1.0.zip).
 
 The same APK targets Android TV devices running Android 11 or newer. It contains no per-CPU split downloads. It is signed so Android can verify its integrity; sideloaded builds can show a Play Protect notice because they are not distributed through Google Play.
 
@@ -26,7 +26,7 @@ See the illustrated-by-steps guide in [INSTALL.md](INSTALL.md). In short:
 - Choose a built-in theme wallpaper or a local TV image; Glance can show local photos after an adjustable idle period.
 - The Control Center clock and date sit beside a local weather pill; Settings stays in its own gear control.
 - Hold **OK** on an app to move it, remove it from Home, or open App info. The App Library at the end of the grid lets you add apps back.
-- Reorder apps with the remote, adjust the grid and dock, and choose Dark or Light appearance.
+- Reorder apps with the remote and adjust the grid and dock in the dark appearance.
 - First-launch welcome setup with a skip option.
 
 ## Clean up a TV safely
