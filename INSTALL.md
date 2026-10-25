@@ -42,7 +42,7 @@ Some devices use a pairing code and a changing port instead. Follow the TV’s *
 - Use the remote arrows to select apps; press **OK** to open one.
 - Hold **OK** on an app to move it, remove it from Home, or view App info.
 - Open **App Library** at the end of the app grid to add a hidden app back.
-- Open the Settings pill and hold **OK** to find **tvOS Settings**. Choose Wallpaper, Appearance, Home Screen, Apps, Glance, or About.
+- Open the Control Center gear to find tvOS Settings. Weather appears beside the clock and date in Control Center; enable it and choose a city or TV location in Settings → Status & Weather.
 - To pick a local wallpaper or enable Glance, allow image access when asked. The app copies the selected wallpaper into its private storage, so it stays selected after you remove a USB drive.
 - To change the default launcher later, use **Android TV Settings → Apps → Default apps → Home app** (wording varies by TV) and choose the launcher you want.
 

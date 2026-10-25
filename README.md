@@ -6,7 +6,9 @@ A clean, remote-first Android TV home screen by **ASHU**. Version **1.0**. Minim
 
 ## Download
 
-Download the universal APK: [tvOS-Android-TV-1.0.apk](release/tvOS-Android-TV-1.0.apk)
+Download the universal APK: [tvOS-Android-TV-1.0.apk](tvOS-Android-TV-1.0.apk)
+
+Download the complete source: [tvOS-source-v1.0.zip](tvOS-source-v1.0.zip) or browse the [`launcher/`](launcher/) project folder.
 
 The same APK targets Android TV devices running Android 11 or newer. It contains no per-CPU split downloads. It is signed so Android can verify its integrity; sideloaded builds can show a Play Protect notice because they are not distributed through Google Play.
 
@@ -22,9 +24,9 @@ See the illustrated-by-steps guide in [INSTALL.md](INSTALL.md). In short:
 ## Features
 
 - Choose a built-in theme wallpaper or a local TV image; Glance can show local photos after an adjustable idle period.
-- A compact clock pill expands to show date, time, Inputs, Wi-Fi, and Settings.
+- The Control Center clock and date sit beside a local weather pill; Settings stays in its own gear control.
 - Hold **OK** on an app to move it, remove it from Home, or open App info. The App Library at the end of the grid lets you add apps back.
-- Reorder apps with the remote, adjust the grid and dock, choose Dark or Light appearance, and optionally add tvOS Settings to the app grid.
+- Reorder apps with the remote, adjust the grid and dock, and choose Dark or Light appearance.
 - First-launch welcome setup with a skip option.
 
 ## Clean up a TV safely
@@ -40,12 +42,16 @@ cd launcher
 .\gradlew.bat assembleRelease lintRelease
 ```
 
-The APK will be at `launcher/app/build/outputs/apk/release/app-release.apk`. The app uses the existing Android package ID `com.gathin.tvhome` to preserve upgrade compatibility. `minSdk` is 30.
+The APK will be at `launcher/app/build/outputs/apk/release/app-release.apk`. The Android package ID is `com.heya.tvhome`; the release is signed with the same certificate as the supplied 1.4 APK so it can update in place. `minSdk` is 30, and `versionCode` increases for Android updates while the displayed version is 1.0.
+
+To install from a computer, connect with Android Platform Tools and run `adb install -r tvOS-Android-TV-1.0.apk`.
 
 ## Credits and licensing
 
 This release is based on [Gathin23/CleanYourTV](https://github.com/Gathin23/cleanyourtv), used under its MIT license. The source license and attribution are preserved in [LICENSE](LICENSE). The Outfit typeface is distributed under the SIL Open Font License; see [`launcher/FONT-LICENSE-OFL.txt`](launcher/FONT-LICENSE-OFL.txt).
 
-The requested SF Compact font is not bundled: Apple’s font download terms restrict its use to Apple watchOS mockups. This Android app uses the included, openly licensed Outfit font instead.
+The requested SF Compact font is not bundled: Apple’s font download terms restrict its use to Apple platforms. This Android app uses the included, openly licensed Outfit font instead.
+
+Liquid Glass Color icons are from [Icons8](https://icons8.com/icons/liquid-glass-color) under its [attribution license](https://icons8.com/license); attribution is included in the About section in the app.
 
 **Made with love in India by ASHU.** [heyashubro.pages.dev](https://heyashubro.pages.dev/)
